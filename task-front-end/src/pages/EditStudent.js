@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { Component } from "react";
 import { Link,  useNavigate } from "react-router-dom";
 
-class AddStudent extends Component {
+class EditStudent extends Component {
   state = {
     name: "",
     course: "",
@@ -39,7 +39,7 @@ class AddStudent extends Component {
           <div className="col-md-6">
             <div className="card">
               <div className="card-header">
-                <h4>Add Student</h4>
+                <h4>Edit Student</h4>
                 <Link to={"/"} className="btn btn-primary btn-sm float-end">
                   Back
                 </Link>
@@ -101,4 +101,4 @@ class AddStudent extends Component {
   }
 }
 
-export default AddStudent;
+export default EditStudent;
